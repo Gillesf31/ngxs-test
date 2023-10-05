@@ -1,1 +1,15 @@
-<app-nx-welcome></app-nx-welcome> <router-outlet></router-outlet>
+<p>app works</p>
+
+<fieldset>
+    <legend>Todo State</legend>
+    <button (click)="addTodo()">Dispatch Add Todo Action</button>
+    <button (click)="updateFilled()">Dispatch Filled Action</button>
+    <button (click)="updateValue()">Dispatch Value Action</button>
+</fieldset>
+
+
+<fieldset>
+    <legend>Animal State</legend>
+    <button (click)="addAnimal()">Dispatch Add Animal Action</button>
+    <button (click)="editFirstAnimal()">Dispatch Edit First Animal Action</button>
+</fieldset>
